@@ -1,8 +1,6 @@
 //
 //  MenuCell.m
 //  PhotoBookShop
-//
-//  Created by Anton Borev on 3/1/16.
 //  Copyright © 2016 Peter. All rights reserved.
 //
 

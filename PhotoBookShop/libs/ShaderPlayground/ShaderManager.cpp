@@ -1,11 +1,3 @@
-//
-//  ShaderManager.cpp
-//  ShaderPlayground
-//
-//  Created by K-Res on 14-5-6.
-//  Copyright (c) 2014年 K-Res. All rights reserved.
-//
-
 #include "ShaderManager.h"
 #include "Helpers.h"
 

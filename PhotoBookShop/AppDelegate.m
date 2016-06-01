@@ -1,13 +1,10 @@
 //
 //  AppDelegate.m
 //  PhotoBookShop
-//
-//  Created by Anton Borev on 2/6/16.
 //  Copyright © 2016 Peter. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end

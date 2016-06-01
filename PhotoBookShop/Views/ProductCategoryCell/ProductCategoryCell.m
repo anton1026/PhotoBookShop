@@ -1,8 +1,6 @@
 //
 //  ProductCategoryCell.m
 //  PhotoBookShop
-//
-//  Created by Anton Borev on 2/9/16.
 //  Copyright © 2016 Peter. All rights reserved.
 //
 
@@ -11,13 +9,15 @@
 @implementation ProductCategoryCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    self.lblProductName.layer.cornerRadius =5;
+    self.lblProductName.layer.borderColor =[UIColor whiteColor].CGColor;
+    self.lblProductName.layer.borderWidth =3;
+    [[self.lblProductName layer] setMasksToBounds:YES];
+    self.labelbackview.layer.cornerRadius =3;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 @end

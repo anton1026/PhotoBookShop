@@ -1,7 +1,5 @@
 //
 //  FormatHelper.m
-//  Youth_Hostel
-//
 //  Created by Anton Borev on 10/20/15.
 //  Copyright © 2015 Anton. All rights reserved.
 //

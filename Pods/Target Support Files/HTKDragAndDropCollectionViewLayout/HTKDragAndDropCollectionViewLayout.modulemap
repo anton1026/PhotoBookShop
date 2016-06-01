@@ -1,0 +1,6 @@
+framework module HTKDragAndDropCollectionViewLayout {
+  umbrella header "HTKDragAndDropCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

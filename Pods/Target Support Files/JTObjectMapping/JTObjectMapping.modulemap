@@ -1,0 +1,6 @@
+framework module JTObjectMapping {
+  umbrella header "JTObjectMapping-umbrella.h"
+
+  export *
+  module * { export * }
+}

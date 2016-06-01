@@ -1,8 +1,6 @@
 //
 //  ViewController.h
 //  PhotoBookShop
-//
-//  Created by Anton Borev on 2/6/16.
 //  Copyright © 2016 Peter. All rights reserved.
 //
 
@@ -10,6 +8,8 @@
 
 @interface ViewController : UIViewController
 
-
+@property (weak, nonatomic) IBOutlet UITableView *tblProductCategory;
+@property (strong, nonatomic) NSMutableDictionary *cachedImages;
+@property (weak, nonatomic) IBOutlet UIButton *btnMenu;
 @end
 

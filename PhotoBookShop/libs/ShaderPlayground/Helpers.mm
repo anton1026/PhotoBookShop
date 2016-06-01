@@ -1,12 +1,6 @@
-//
-//  Helpers.cpp
-//  ShaderPlayground
-//
-//  Created by K-Res on 14-5-6.
-//  Copyright (c) 2014年 K-Res. All rights reserved.
-//
-
 #include "Helpers.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 static const int MAX_LOGBUF = 1024;
 

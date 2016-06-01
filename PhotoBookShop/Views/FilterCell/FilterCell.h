@@ -1,8 +1,6 @@
 //
 //  FilterCell.h
 //  PhotoBookShop
-//
-//  Created by Anton Borev on 2/29/16.
 //  Copyright © 2016 Peter. All rights reserved.
 //
 
@@ -10,4 +8,8 @@
 
 @interface FilterCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *filterImage;
+@property (weak, nonatomic) IBOutlet UILabel *lblFilterName;
+@property (weak, nonatomic) IBOutlet UIView *maskView;
+@property BOOL isFiltered;
 @end
